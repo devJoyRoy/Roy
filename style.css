@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.calir-fixt::after{
+content: "";
+display: block;
+clear: both;
+}
+.width-fix{
+  width: 1024px;
+  margin: auto;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+/* boots */
+.hader{
+  background-color: #20df9f;
+}
+.hader-left {
+  float: left;
+  width: 30%;
+}
+
+.hader-left h2 {
+  color: white;
+  padding: 15px 0;
+  margin-left: 30px;
+}
+
+.hader-right {
+  width: 70%;
+  float: right;
+}
+
+.hader-right ul li {
+  display: inline-block;
+  margin-left: -4px;
+ 
+}
+
+.hader-right ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 15px;
+  display: block;
+  line-height: 60px;
+  transition: .3s;
+}
+.hader-right ul li:last-child {
+  margin-right: 24px;
+}
+.hader-right ul li a:hover{
+  background-color: rgb(14, 212, 146);
+}
+
+/* banear */
+.banear{
+  background-image: url(header-bg01.jpg);
+  background-size: cover;
+  padding: 239px 0px;
+  background-position: 0px -91px;
+  background-repeat: no-repeat;
+}
+.banear h1 {
+  font-size: 47px;
+  color: white;
+  padding-bottom: 8px;
+}
+
+.banear p {
+  color: white;
+  padding-bottom: 30px;
+}
+.banear button {
+  padding: 13px 36px;
+  background-color: #36d09c;
+  border: 1px solid white;
+  color: white;
+}
+.content-had h2 {
+  font-size: 31px;
+  padding-bottom: 12px;
+}
+
+
+.content-had p {
+  margin-bottom: 60px;
+}
+.content-icon {
+  width: 21%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+span {
+    font-size: 28px;
+    color: #2ff174;
+    padding: 17px 0;
+    display: block;
+}
+
+.content-icon h2 {
+    font-size: 23px;
+    font-family: sans-serif;
+    padding-bottom: 11px;
+}
+
+.content-icon p {width: 246px;
+  line-height: 18px;
+  margin: auto;
+}
+.about-laft {
+  width: 48%;
+  float: left;
+  
+  text-align: right;
+}
+
+.about-right {
+  float: right;
+  width: 48%;
+  margin-right: 2%;
+}
+
+.about-right h3 {
+  text-align: left;
+  margin-bottom: 15px;
+}
+.about-laft img {
+  height: 333px;
+  width: 565px;
+}
+
+.about {
+  margin-top: 160px;
+}
+.about-right p {
+  text-align: left;
+}
+.about-had.text-center h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.about-had.text-center p {
+  margin-bottom: 50px;
+}
+.about-had.text-center {
+  border-top: 2px solid green;
+  padding-top: 70px;
+}
+
+.content-text {
+  float: left;
+  width: 30%;
+  margin-left: 1%;
+  margin-right: 2%;
+}
+.content-text h3 {
+  font-size: 15px;
+}
+
+.content-text {margin-bottom: 70px;}
+.content-had {
+  margin-top: 105px;
+}
+/* 
+fotter */
+
+
+.manu ul li {display: inline-block;}
+
+.manu ul li a {
+    color: #be4343;
+}
+
+.about-lef-imgg{}
